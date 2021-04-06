@@ -6,28 +6,6 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
-local win = Flux:Window("Master Hub", "Baseplate", Color3.fromRGB(5, 119, 28), Enum.KeyCode.RightControl)
-local tab = win:Tab("Tab 1", "http://www.roblox.com/asset/?id=6023426915")
-tab:Label("This is just a label.")
-tab:Line()
-tab:Toggle("Auto-Farm Coins", "Automatically collects coins for you!", function(t)
-print(t)
-end)
-d
-end)
-tab:Dropdown("Part to aim at", {"Torso","Head","Penis"}, function(t)
-print(t)
-end)
-tab:Colorpicker("ESP Color", wColor3.fromRGB(0, 184, 21), function(t)
-print(t)
-end)
-tab:Textbox("Gun Power", "This textbox changes your gun power, so you can kill everyone faster and easier.", true, function(t)
-print(t)
-end)
-tab:Bind("Kill Bind", Enum.KeyCode.Q, function()
-print("Killed a random person!")
-end)
-win:Tab("Tab 2", "http://www.roblox.com/asset/?id=6022668888")
 
 local MainMasterGUI = Instance.new("ScreenGui")
 MainMasterGUI.Name = "MainMasterGUI"
