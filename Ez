@@ -1,5 +1,5 @@
 if game.PlaceId == 2629642516 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/Bit(ch)CoinMiner", true))()
 elseif game.Name == Game then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/TrainStation%20Traffic%20System.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/trashbloxfruit", true))()
 end
