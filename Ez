@@ -1,5 +1,7 @@
 if game.PlaceId == 2629642516 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/Bit(ch)CoinMiner", true))()
-elseif game.Name == Game then
+elseif game.PlaceId == 4442282183 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/trashbloxfruit", true))()
+elseif game.PlaceId == 5552815761 then
+	loadstring(gane:HttpGet("https://raw.githubusercontent.com/MasterJayGames/MasterHubLoader/main/idontwanttodisconnect", true))()
 end
